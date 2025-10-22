@@ -10,8 +10,7 @@ $result = $produk->readAll();
 
 <head>
      <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-
-scale=1.0">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Daftar Produk - OOP PHP</title>
      <link rel="stylesheet" href="style.css">
 </head>
@@ -20,8 +19,7 @@ scale=1.0">
      <div class="container">
           <h1> Daftar Produk</h1>
                <div class="action-bar">
-                    <a href="create.php" class="btn btn-primary"> Tambah ➕
-                         Produk</a>
+                    <a href="create.php" class="btn btn-primary"> Tambah Produk ➕</a>
                </div>
                <div class="product-grid">
                     <?php if ($result->num_rows > 0): ?>
@@ -53,8 +51,7 @@ scale=1.0">
                               </div>
                          <?php endwhile; ?>
                     <?php else: ?>
-                         <p class="no-data">Belum ada produk. Silakan tambah
-                              produk baru.</p>
+                         <p class="no-data">Belum ada produk. Silakan tambah produk baru.</p>
                </div>
           <?php endif; ?>
      </div>
